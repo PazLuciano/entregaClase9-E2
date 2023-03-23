@@ -1,0 +1,15 @@
+
+
+<h1>Bienvenido a tu carrito</h1>
+
+<h3>Lista de productos en tu carrito</h3>
+
+
+{{#each productos}}
+    {{#each this}}
+    <p>Articulo 1: {{this}}</p>
+    <p>Precio: ${{this}}</p>
+    <p>descripcion: {{this}}</p>
+    <p>Cantidad {{this}}</p>
+    {{/each}}
+{{/each}}
